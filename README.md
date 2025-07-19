@@ -1,107 +1,96 @@
-# 📊 Sales Performance Analysis Dashboard
-
+📊 Sales Performance Analysis Dashboard
 An interactive Power BI dashboard built to analyze global sales trends, highlight top-performing products, and uncover revenue insights to support data-driven business decisions.
 
----
+🎯 Objective
+Provide business stakeholders with actionable insights by analyzing sales performance across countries, products, and time using interactive visuals and KPIs.
 
-## 🎯 Objective
+🧰 Technologies Used
+🐍 Python (Pandas) – Data cleaning & preprocessing
 
-To provide business stakeholders with actionable insights by analyzing sales performance across countries, products, and time using interactive visuals and KPIs.
+📓 Jupyter Notebook – Initial data exploration
 
----
+🗄️ SQL Server – Relational database setup & querying
 
-## 🧰 Technologies Used
+📊 Power BI – Data modeling, DAX, visualization
 
-- **Python (Pandas)** – Data Cleaning & Preprocessing  
-- **Jupyter Notebook** – Initial Data Exploration  
-- **SQL Server** – Relational Database Setup & Querying  
-- **Power BI** – Data Modeling, DAX, Visualization  
-- **MS Excel** – Raw Data Review  
-- **ERD** – Data Relationship Design  
+📊 MS Excel – Raw data review
 
----
+🧩 ERD (Entity Relationship Diagram) – Data relationship design
 
-## 🧹 Data Preparation & Cleaning
+🧹 Data Preparation & Cleaning
+Performed data wrangling using Python (Pandas) in Jupyter Notebook:
 
-- Performed data cleaning and wrangling using **Pandas in Jupyter Notebook**:
-  - Handled duplicates and blank values
-  - Standardized column formats
-  - Split and exported clean data into **5 CSV files**
-  
-- Imported cleaned data into **SQL Server**:
-  - Created normalized relational tables:
-    - `SalesDetails`
-    - `Products`
-    - `Customers`
-    - `Calendar`
-    - `Countries`
+Removed duplicates and blank values
 
-- Executed SQL queries to validate structure and check for integrity before loading into Power BI.
+Standardized column formats
 
----
+Split & exported clean data into 5 CSVs
 
-## 🧱 Data Modeling (ERD)
+Then imported into SQL Server and:
 
-- Designed an **Entity Relationship Diagram (ERD)** to define table relationships.
-- Established **Primary Keys** and **Foreign Keys** to enforce referential integrity.
-- Imported relational model into **Power BI** and connected tables using 1:M and M:1 relationships.
+Created normalized relational tables:
+SalesDetails, Products, Customers, Calendar, Countries
 
----
+Ran validation queries to ensure structure & integrity
 
-## 📊 Key KPIs & Metrics
+🧱 Data Modeling (ERD)
+Designed a normalized ERD
 
-- 🧾 **Total Revenue**
-- 📦 **Total Orders**
-- 🛍️ **Total Products**
-- 📆 **Average Orders Per Month**
-- 🎯 **Top 5 Products by Revenue**
-- 🌍 **Revenue by Country**
+Established primary and foreign keys
 
----
+Imported model into Power BI, connected via 1:M and M:1 relationships
 
-## 🌍 Visualizations
+📊 Key KPIs & Metrics
+🧾 Total Revenue
 
-- 📊 Stacked Bar Charts – Top Products by Revenue
-- 📈 Area & Line Charts – Monthly and Quarterly Sales Trends
-- 🗂️ Slicers – Country, Month, Product
-- 🗺️ Map Visual – Global Revenue Distribution
-- 🎨 Consistent gray-tone color palette for a clean, professional dashboard
+📦 Total Orders
 
----
+🛍️ Total Products Sold
 
-## 💡 Business Insights
+📆 Average Orders Per Month
 
-- 🇬🇧 **United Kingdom** alone contributed ~85% of total revenue.
-- 🔝 Top-selling product identified: **“36 Pencils”**
-- 📈 Seasonal peaks observed in **Q4 (October–December)**
-- 🌐 Sales distribution shows regional demand trends
+🎯 Top 5 Products by Revenue
 
----
+🌍 Revenue by Country
 
-## 📌 Project Highlights
+🌍 Visualizations
+📊 Stacked Bar Charts – Top products by revenue
 
-- End-to-end pipeline from raw CSV → Python preprocessing → SQL Server → Power BI dashboard.
-- Real-world simulation of **ETL**, **data modeling**, **KPI creation**, and **visual storytelling**.
-- Designed for **stakeholder understanding** with interactive filters, global visuals, and KPIs.
+📈 Line & Area Charts – Monthly and quarterly sales trends
 
----
+🗂️ Slicers – Country, Month, Product
 
-## 📷 Dashboard Preview
+🗺️ Map Visual – Global revenue distribution
 
-> *('OutputSnap/Sales Dashboard Snapshot.png`)*
+🎨 Consistent color palette for a professional look
 
----
+💡 Business Insights
+🇬🇧 United Kingdom contributed ~85% of total revenue
 
-## 🚀 Getting Started
+🔝 Top-selling product: 36 Pencils
 
-1. Clone this repo:
-   ```bash
-   git clone https://github.com/Ryotakohama/Sales-Performance-analysis-Dashboard.git
+📈 Seasonal peaks observed in Q4 (Oct–Dec)
 
+🌐 Visuals highlight regional demand differences
 
+📌 Project Highlights
+✅ Built an end-to-end pipeline: raw CSV → Python (cleaning) → SQL Server → Power BI
 
+⚙️ Real-world ETL simulation, data modeling, and dashboarding
+
+📢 Designed with stakeholders in mind – interactive visuals, filters, and KPIs
+
+🎯 Emphasized storytelling with data for clear decision-making
+
+📷 Dashboard Snapshot
+Insert snapshot image once uploaded
+(Example: ![Dashboard Preview](OutputSnap/Sales Dashboard Snapshot.png))
+
+🚀 Getting Started
+bash
+Copy
+Edit
+git clone https://github.com/Ryotakohama/Sales-Performance-analysis-Dashboard.git
 👤 Author
 Adhithya S
-📫 LinkedIn  :  https://www.linkedin.com/in/adhithya-s-760367288/
-
-
+📫 LinkedIn

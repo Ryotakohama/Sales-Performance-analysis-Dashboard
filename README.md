@@ -88,7 +88,7 @@ To provide business stakeholders with actionable insights by analyzing sales per
 
 ## 📷 Dashboard Preview
 
-> *('OutputSnap/Dashboard.png`)*
+> *('OutputSnap/Sales Dashboard Snapshot.png`)*
 
 ---
 

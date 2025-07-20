@@ -32,7 +32,7 @@ Performed data cleaning and wrangling using **Pandas in Jupyter Notebook**:
 Imported cleaned data into **SQL Server**:
 
 - Created normalized relational tables:  
-  `SalesDetails`, `Products`, `Customers`, `Calendar`, `Countries`  
+  `SalesDetails`, `Products`, `Customers`, `Datedim`, `Geography`  
 - Executed **SQL queries** to validate structure and check data integrity
 
 ---
@@ -50,7 +50,7 @@ Imported cleaned data into **SQL Server**:
 - 🧾 **Total Revenue**  
 - 📦 **Total Orders**  
 - 🛍️ **Total Products**  
-- 📆 **Average Orders Per Month**  
+- 📆 **Average Orders Value**  
 - 🎯 **Top 5 Products by Revenue**  
 - 🌍 **Revenue by Country**
 
